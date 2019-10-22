@@ -6,6 +6,6 @@ lazy val root = (project in file("."))
   .settings(
     name := "$name$",
     libraryDependencies ++= Seq(
-      "org.scalatest" %% "scalatest" % "3.0.8"
+      "org.scalatest" %% "scalatest" % "3.0.8" % Test
     )
   )
